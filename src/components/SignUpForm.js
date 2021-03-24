@@ -63,7 +63,7 @@ const SignUpForm = () => {
     return (
       status.message && (
         <div
-          className={`text-xl bg-gray-200 p-2 m-2 ${
+          className={`text-xl bg-gray-200 text-center p-2 m-2 ${
             status.success ? "text-green-800" : "text-red-800"
           }`}
         >
